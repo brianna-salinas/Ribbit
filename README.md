@@ -42,9 +42,9 @@ Guiá a tu rana por el río, subite a troncos y caimanes buenos, esquivá a los 
 </p>
 
 <p align="center">
-  <img src="assets/history-1" alt="Pantalla de Historia" width="45%"/>
+  <img src="assets/history-1.png" alt="Pantalla de Historia" width="45%"/>
   
-  <img src="assets/history-2" alt="Pantalla de Historia nivel 3" width="45%"/>
+  <img src="assets/history-2.png" alt="Pantalla de Historia nivel 3" width="45%"/>
 </p>
 
 ---
