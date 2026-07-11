@@ -1,7 +1,7 @@
 # 🐸 RIBBIT
 
 <p align="center">
-  <img src="Ribbit/img/Ribbit.png" alt="Ribbit Logo" height="80"/>
+  <img src="Ribbit/img/Ribbit.png" alt="Ribbit Logo" height="150"/>
 </p>
 
 <p align="center">
