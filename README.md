@@ -42,6 +42,7 @@ Guiá a tu rana por el río, subite a troncos y caimanes buenos, esquivá a los 
   
   <img src="docs/screenshots/perdiste.png" alt="Pantalla de derrota" width="45%"/>
 </p>
+
 ---
 ## Features
 
