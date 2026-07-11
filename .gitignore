@@ -1,0 +1,26 @@
+.vs/
+x64/
+x86/
+Win32/
+Debug/
+Release/
+ipch/
+
+# Archivos sueltos
+*.ipch
+*.pdb
+*.ilk
+*.obj
+*.log
+*.tlog
+*.iobj
+*.ipdb
+*.exp
+*.lib
+*.exe
+*.db
+*.opendb
+*.suo
+*.user
+*.aps
+*.sdf

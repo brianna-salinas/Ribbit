@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{0668b324-d9dd-4e6d-84b4-addd9a87be17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entidad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencias.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nivel1.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Aliados.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemigo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuJuego.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Instrucciones.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Creditos.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Salir.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentacion.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ribbit.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="ElegirRana.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranitas.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="IngresoNombre.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Nivel3.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Ganaste.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Perdiste.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Historia.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Nivel2.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="CargandoNivel.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="GanasteJuego.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoriaFinal.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="Regalo.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="AbrirRegalo.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nivel1.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuJuego.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Instrucciones.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Creditos.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Salir.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentacion.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Ribbit.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="ElegirRana.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="IngresoNombre.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Nivel3.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ganaste.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Perdiste.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Historia.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Nivel2.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="CargandoNivel.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="GanasteJuego.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoriaFinal.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="Regalo.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="AbrirRegalo.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Juego.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Ribbit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

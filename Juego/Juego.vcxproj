@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{1096EA80-F13D-462C-9BC0-2CE1104016D2}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Juego</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AbrirRegalo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CargandoNivel.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Creditos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Dependencias.h" />
+    <ClInclude Include="ElegirRana.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enemigo.h" />
+    <ClInclude Include="Entidad.h" />
+    <ClInclude Include="Ganaste.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="GanasteJuego.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="HistoriaFinal.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="IngresoNombre.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Instrucciones.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Juego.h" />
+    <ClInclude Include="Jugador.h" />
+    <ClInclude Include="MenuJuego.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nivel1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Aliados.h" />
+    <ClInclude Include="Nivel2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nivel3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Perdiste.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Presentacion.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ranitas.h" />
+    <ClInclude Include="Regalo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="Ribbit.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Salir.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbrirRegalo.cpp" />
+    <ClCompile Include="CargandoNivel.cpp" />
+    <ClCompile Include="Creditos.cpp" />
+    <ClCompile Include="ElegirRana.cpp" />
+    <ClCompile Include="Ganaste.cpp" />
+    <ClCompile Include="GanasteJuego.cpp" />
+    <ClCompile Include="Historia.cpp" />
+    <ClCompile Include="HistoriaFinal.cpp" />
+    <ClCompile Include="IngresoNombre.cpp" />
+    <ClCompile Include="Instrucciones.cpp" />
+    <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="MenuJuego.cpp" />
+    <ClCompile Include="Nivel1.cpp" />
+    <ClCompile Include="Nivel2.cpp" />
+    <ClCompile Include="Nivel3.cpp" />
+    <ClCompile Include="Perdiste.cpp" />
+    <ClCompile Include="Presentacion.cpp" />
+    <ClCompile Include="Regalo.cpp" />
+    <ClCompile Include="Ribbit.cpp" />
+    <ClCompile Include="Salir.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AbrirRegalo.resx">
+      <DependentUpon>AbrirRegalo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CargandoNivel.resx">
+      <DependentUpon>CargandoNivel.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElegirRana.resx">
+      <DependentUpon>ElegirRana.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ganaste.resx">
+      <DependentUpon>Ganaste.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GanasteJuego.resx">
+      <DependentUpon>GanasteJuego.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia.resx">
+      <DependentUpon>Historia.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoriaFinal.resx">
+      <DependentUpon>HistoriaFinal.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresoNombre.resx">
+      <DependentUpon>IngresoNombre.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrucciones.resx">
+      <DependentUpon>Instrucciones.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuJuego.resx">
+      <DependentUpon>MenuJuego.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel1.resx">
+      <DependentUpon>Nivel1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel2.resx">
+      <DependentUpon>Nivel2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nivel3.resx">
+      <DependentUpon>Nivel3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perdiste.resx">
+      <DependentUpon>Perdiste.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion.resx">
+      <DependentUpon>Presentacion.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Regalo.resx">
+      <DependentUpon>Regalo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ribbit.es-PE.resx">
+      <DependentUpon>Ribbit.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ribbit.resx">
+      <DependentUpon>Ribbit.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salir.resx">
+      <DependentUpon>Salir.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Juego.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\Ribbit.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <Target Name="CopiarAssets" AfterTargets="Build">
+    <ItemGroup>
+      <ImgFiles Include="$(ProjectDir)img\**\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(ImgFiles)" DestinationFolder="$(OutDir)img\%(RecursiveDir)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>
