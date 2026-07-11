@@ -29,14 +29,17 @@ Guiá a tu rana por el río, subite a troncos y caimanes buenos, esquivá a los 
  
 <p align="center">
   <img src="docs/screenshots/menu.png" alt="Menú principal" width="45%"/>
+  
   <img src="docs/screenshots/seleccion-rana.png" alt="Selección de rana" width="45%"/>
 </p>
 <p align="center">
   <img src="docs/screenshots/nivel1.png" alt="Nivel 1" width="45%"/>
+  
   <img src="docs/screenshots/nivel2.png" alt="Nivel 2" width="45%"/>
 </p>
 <p align="center">
   <img src="docs/screenshots/ganaste.png" alt="Pantalla de victoria" width="45%"/>
+  
   <img src="docs/screenshots/perdiste.png" alt="Pantalla de derrota" width="45%"/>
 </p>
 ---
